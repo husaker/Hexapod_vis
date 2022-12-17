@@ -12,7 +12,7 @@ if __name__ == '__main__':
     def nothing(*arg):
         pass
 
-ser = serial.Serial('COM6', 9600)
+ser = serial.Serial('COM6', 9600) #подключение по ком порту
 #time.sleep(2)
 ser.reset_input_buffer()
 
